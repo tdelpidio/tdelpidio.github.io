@@ -113,7 +113,7 @@ header{
     font-size: 40px;
     line-height: 47px;
     
-    color: #F8A488;
+    color: #5AA897;
 }
 
 #fortuneBio{
@@ -129,13 +129,21 @@ header{
     font-size: 25px;
     line-height: 29px;
     
-    color: #5AA897;
+    color: #45526C;
 }
 
 #fortuneVideo{
     position: relative;
     left: 950px;
     top: 0px;
+}
+
+.proj{
+    position: absolute;
+    width: 100vw;
+    top: 700px;
+    height: 500px;
+    background-color: #f8a4884d ;
 }
 
 
@@ -169,7 +177,7 @@ header{
     font-size: 20px;
     line-height: 23px;
     
-    color: #5AA897;
+    color: #45526C;
     
 }
 
@@ -202,14 +210,22 @@ ul{
     font-size: 20px;
     line-height: 23px;
     
-    color: #5AA897;
+    color: #45526C;
     
 }
 
 #bioPic{
     position: relative;
-    left: 0px;
-    top: 50px;
+    left: 20px;
+    top: 40px;
+}
+
+.contact{
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    top: 100px;
+    background-color: rgba(90, 168, 151, 0.283);
 }
 
 #contactHeader{
