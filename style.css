@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F8F5F1;
+}
+
+header{
+    position:fixed;
+    width: 100vw;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+
+    background: #45526C;
+}
+
+#heyThere{
+    position: relative;
+    width: 375px;
+    height: 0px;
+    left: 129px;
+    top: 200px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 0px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #F8A488;
+}
+
+#bigName{
+    position: relative;
+    width: 706px;
+    height: 80px;
+    left: 117px;
+    top: 200px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 94px;
+    
+    color: #45526C;
+}
+
+#bigIntro{
+    position: relative;
+    width: 763px;
+    height: 80px;
+    left: 129px;
+    top: 150px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 94px;
+    
+    color: rgba(90, 168, 151, 0.5);
+}
+
+#headBio{
+    position: relative;
+    width: 467px;
+    height: 72px;
+    left: 129px;
+    top: 120px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #45526C;
+}
+
+#projectsHeader{
+    position: relative;
+    width: 404px;
+    height: 36px;
+    left: 129px;
+    top: 250px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    
+    color: #45526C;
+}
+
+#fortuneProject{
+    position: relative;
+    width: 404px;
+    height: 33px;
+    left: 129px;
+    top: 300px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    
+    color: #F8A488;
+}
+
+#fortuneBio{
+    position: relative;
+    width: 547px;
+    height: 122px;
+    left: 129px;
+    top: 290px; 
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #5AA897;
+}
+
+#fortuneVideo{
+    position: relative;
+    left: 950px;
+    top: 0px;
+}
+
+
+#aboutHeader{
+    position: relative;
+    width: 404px;
+    height: 36px;
+    left: 129px;
+    top: 100px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    
+    color: #45526C;
+    
+}
+
+#mainBio{
+    position: relative;
+    width: 589px;
+    height: 150px;
+    left: 129px;
+    top: 150px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #5AA897;
+    
+}
+
+ul{
+    position: relative;
+    width: 100px;
+    height: 0px;
+    left: 111px;
+    top: 100px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #F8A488; 
+}
+
+#personalBio{
+    position: relative;
+    width: 589px;
+    height: 340px;
+    left: 129px;
+    top: 175px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #5AA897;
+    
+}
+
+#bioPic{
+    position: relative;
+    left: 0px;
+    top: 50px;
+}
+
+#contactHeader{
+    position: relative;
+    width: 404px;
+    height: 36px;
+    left: 129px;
+    top: 100px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    
+    color: #45526C;
+}
+
+#contactDesc{
+    position: relative;
+    width: 547px;
+    height: 217px;
+    left: 129px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #F8A488;
+
+
+}
+
+#contactForm{
+    position: relative;
+    width: 589px;
+    height: 340px;
+    left: 129px;
+    top: 0px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #5AA897;
+}
+
+#social{
+    position: relative;
+    width: 547px;
+    height: 122px;
+    left: 893px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #F8A488;
+
+}
+
+a{
+    position: relative;
+    left: 0px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 59px;
+    
+    color: #45526C;
+}
