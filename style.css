@@ -121,9 +121,8 @@ header{
 }
 
 #heyThere{
-    position: absolute;
+    position: relative;
     width: 375px;
-    height: 0px;
     left: 200px;
     top: 200px;
     
