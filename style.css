@@ -1,27 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
-    position: relative;
-    width: 1440px;
-    height: 1024px;
+
+html, body{
     background: #F8F5F1;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
     position:fixed;
     width: 100vw;
-    height: 75px;
+    height: 80px;
     left: 0px;
     top: 0px;
 
     background: #45526C;
+    opacity: 95%;
+}
+
+#left{
+    position:fixed;
+    width: 45px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(90, 168, 151, 0.5);
+    opacity: 50%;
+}
+
+#leftProj{
+    position:fixed;
+    width: 45px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: #f8a4884d;
+    opacity: 80%;
+} 
+
+#leftContact{
+    position:fixed;
+    width: 45px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: #45526C;
+    opacity: 50%;
+} 
+
+#mainLink{
+    position: absolute;
+    right: 35%;
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #F8A488;
+}
+
+#mainLink:hover{
+    color:#F8F5F1 ;
+    text-shadow: 5px 5px 5px #F8A488;
+}
+
+#projLink{
+    position: absolute;
+    right: 25%;
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #F8A488;
+}
+
+#projLink:hover{
+    color:#F8F5F1 ;
+    text-shadow: 5px 5px 5px #F8A488;
+}
+
+#contactLink{
+    position: absolute;
+    right: 5%;
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #F8A488;
+}
+
+#contactLink:hover{
+    color:#F8F5F1 ;
+    text-shadow: 5px 5px 5px #F8A488;
+}
+
+#aboutLink{
+    position: absolute;
+    right:15%;
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: right;
+
+    color: #F8A488;
+}
+
+#aboutLink:hover{
+    color:#F8F5F1 ;
+    text-shadow: 5px 5px 5px #F8A488;
 }
 
 #heyThere{
     position: relative;
     width: 375px;
     height: 0px;
-    left: 129px;
+    left: 200px;
     top: 200px;
     
     font-family: 'Roboto';
@@ -34,13 +147,14 @@ header{
     align-items: center;
     
     color: #F8A488;
+    z-index: 1;
 }
 
 #bigName{
     position: relative;
     width: 706px;
     height: 80px;
-    left: 117px;
+    left: 188px;
     top: 200px;
     
     font-family: 'Roboto';
@@ -49,14 +163,17 @@ header{
     font-size: 80px;
     line-height: 94px;
     
-    color: #45526C;
+    color: #45526c;
+    text-shadow: 5px 2px 2px  rgba(90, 168, 151, 0.5);
+    z-index: 1;
 }
+
 
 #bigIntro{
     position: relative;
     width: 763px;
     height: 80px;
-    left: 129px;
+    left: 200px;
     top: 150px;
     
     font-family: 'Roboto';
@@ -66,14 +183,16 @@ header{
     line-height: 94px;
     
     color: rgba(90, 168, 151, 0.5);
+    text-shadow: 5px 2px 2px #F8A488;
+    z-index: 1;
 }
 
 #headBio{
     position: relative;
     width: 467px;
     height: 72px;
-    left: 129px;
-    top: 120px;
+    left: 200px;
+    top: 150px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -82,6 +201,61 @@ header{
     line-height: 35px;
 
     color: #45526C;
+    z-index: 1;
+}
+
+#logo{
+    position: absolute;
+    right:50px;
+    top: 100px;
+    height: 700px;
+    width:700px;
+    opacity: 50%;
+}
+
+#logo2{
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+    height: 200px;
+    width:200px;
+}
+
+#pic{
+    position: absolute;
+    right:150px;
+    top: 200px;
+    box-shadow: 10px 10px 10px 10px rgba(90, 168, 151, 0.5);
+}
+
+#linkedLogo{
+    position: absolute;
+    left: 30%;
+    bottom: 20px;
+}
+
+#linkedLogo :hover{
+    opacity: 50%;
+}
+
+#gitHubLogo{
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+}
+
+#gitHubLogo :hover{
+    opacity: 50%;
+}
+
+#instaLogo{
+    position: absolute;
+    right: 30%;
+    bottom: 20px;
+}
+
+#instaLogo :hover{
+    opacity: 50%;
 }
 
 #projectsHeader{
@@ -89,7 +263,7 @@ header{
     width: 404px;
     height: 36px;
     left: 129px;
-    top: 250px;
+    top: 200px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -97,14 +271,17 @@ header{
     font-size: 50px;
     line-height: 59px;
     
+    
     color: #45526C;
+
+    text-shadow: 5px 2px 2px #5aa89782;
 }
 
 #fortuneProject{
     position: relative;
     width: 404px;
     height: 33px;
-    left: 129px;
+    left: 200px;
     top: 300px;
     
     font-family: 'Roboto';
@@ -114,36 +291,30 @@ header{
     line-height: 47px;
     
     color: #5AA897;
+    text-shadow: 2px 2px 2px #45526c8b;
 }
 
 #fortuneBio{
     position: relative;
     width: 547px;
     height: 122px;
-    left: 129px;
-    top: 290px; 
+    left: 200px;
+    top: 300px; 
 
     font-family: 'Roboto';
-    font-style: normal;
+    font-style:normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
+    text-shadow: 2px 2px 2px #5aa89782;
     
     color: #45526C;
 }
 
 #fortuneVideo{
-    position: relative;
-    left: 950px;
-    top: 0px;
-}
-
-.proj{
     position: absolute;
-    width: 100vw;
-    top: 700px;
-    height: 500px;
-    background-color: #f8a4884d ;
+    right: 150px;
+    top: 400px;
 }
 
 
@@ -152,7 +323,7 @@ header{
     width: 404px;
     height: 36px;
     left: 129px;
-    top: 100px;
+    top: 200px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -161,6 +332,7 @@ header{
     line-height: 59px;
     
     color: #45526C;
+    text-shadow: 5px 2px 2px #f8a4884d;
     
 }
 
@@ -168,8 +340,8 @@ header{
     position: relative;
     width: 589px;
     height: 150px;
-    left: 129px;
-    top: 150px;
+    left: 200px;
+    top: 250px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -178,6 +350,8 @@ header{
     line-height: 23px;
     
     color: #45526C;
+
+    text-shadow: 2px 2px 2px #f8a4884d;
     
 }
 
@@ -185,24 +359,25 @@ ul{
     position: relative;
     width: 100px;
     height: 0px;
-    left: 111px;
-    top: 100px;
+    left: 200px;
+    top: 200px;
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 23px;
     
-    color: #F8A488; 
+    color: #F8A488;
+    text-shadow: 2px 2px 2px #5aa89782; 
 }
 
 #personalBio{
     position: relative;
     width: 589px;
     height: 340px;
-    left: 129px;
-    top: 175px;
+    left: 200px;
+    top: 275px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -211,29 +386,23 @@ ul{
     line-height: 23px;
     
     color: #45526C;
+    text-shadow: 2px 2px 2px #f8a4884d;
     
 }
 
 #bioPic{
     position: relative;
-    left: 20px;
-    top: 40px;
+    right: 225px;
+    top: 150px;
 }
 
-.contact{
-    position: relative;
-    width: 100vw;
-    height: 500px;
-    top: 100px;
-    background-color: rgba(90, 168, 151, 0.283);
-}
 
 #contactHeader{
     position: relative;
     width: 404px;
     height: 36px;
     left: 129px;
-    top: 100px;
+    top: 200px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -242,69 +411,63 @@ ul{
     line-height: 59px;
     
     color: #45526C;
+    text-shadow: 5px 2px 2px #f8a4884d;
 }
 
 #contactDesc{
     position: relative;
-    width: 547px;
-    height: 217px;
-    left: 129px;
-    top: 100px;
+    width: 500px;
+    left: 200px;
+    top: 240px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
+    text-align:left;
 
     color: #F8A488;
+    text-shadow: 2px 2px 2px #45526C;
 
 
 }
 
-#contactForm{
-    position: relative;
+.contactForm{
+    position: absolute;
     width: 589px;
-    height: 340px;
-    left: 129px;
-    top: 0px;
-    
+    right: 10px;
+    top: 340px;
+}
+
+#name{
+    width: 350px;
+    height: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
-    
-    color: #5AA897;
+    color:#45526C;
+    background-color: rgba(90, 168, 151, 0.283);
 }
 
-#social{
-    position: relative;
-    width: 547px;
-    height: 122px;
-    left: 893px;
-    top: 100px;
-
+#email{
+    width: 350px;
+    height: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 35px;
-
-    color: #F8A488;
-
+    font-size: 20px;
+    color:#45526C;
+    background-color: rgba(90, 168, 151, 0.283);
 }
 
-a{
-    position: relative;
-    left: 0px;
-    top: 100px;
-
+#message{
+    width: 350px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 59px;
-    
-    color: #45526C;
+    color:#45526C;
+    background-color: rgba(90, 168, 151, 0.283);
 }
