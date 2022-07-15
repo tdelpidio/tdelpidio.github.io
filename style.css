@@ -31,7 +31,7 @@ header{
     opacity: 50%;
 }
 
-#leftProj{
+#leftProj, #leftContact{
     position:fixed;
     width: 45px;
     height: 100vh;
@@ -40,17 +40,6 @@ header{
 
     background: #f8a4884d;
     opacity: 80%;
-} 
-
-#leftContact{
-    position:fixed;
-    width: 45px;
-    height: 100vh;
-    left: 0px;
-    top: 0px;
-
-    background: #45526C;
-    opacity: 50%;
 } 
 
 #mainLink{
@@ -417,8 +406,8 @@ ul{
 #contactDesc{
     position: relative;
     width: 500px;
-    left: 200px;
-    top: 240px;
+    left: 300px;
+    top: 250px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -427,10 +416,7 @@ ul{
     line-height: 35px;
     text-align:left;
 
-    color: #F8A488;
-    text-shadow: 2px 2px 2px #45526C;
-
-
+    color: #45526C;
 }
 
 .contactForm{
@@ -470,4 +456,19 @@ ul{
     font-size: 20px;
     color:#45526C;
     background-color: rgba(90, 168, 151, 0.283);
+}
+
+#submit{
+    width: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color:#45526C;
+    background-color: rgba(90, 168, 151, 0.283);
+}
+
+#submit:hover{
+    background-color:    #45526c8b;
+
 }
