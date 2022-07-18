@@ -137,6 +137,7 @@ header{
     
     color: #F8A488;
     z-index: 1;
+
 }
 
 #bigName{
@@ -200,6 +201,7 @@ header{
     height: 700px;
     width:700px;
     opacity: 50%;
+    z-index: 0;
 }
 
 #logo2{
@@ -217,30 +219,29 @@ header{
     box-shadow: 10px 10px 10px 10px rgba(90, 168, 151, 0.5);
 }
 
-#linkedLogo{
-    position: absolute;
-    left: 30%;
-    bottom: 20px;
+.socialLinksMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+    margin-top:25%;
+    z-index: 1;
+}
+
+.socialLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+    margin-top:8%;
 }
 
 #linkedLogo :hover{
     opacity: 50%;
 }
 
-#gitHubLogo{
-    position: absolute;
-    left: 45%;
-    bottom: 20px;
-}
-
 #gitHubLogo :hover{
     opacity: 50%;
-}
-
-#instaLogo{
-    position: absolute;
-    right: 30%;
-    bottom: 20px;
 }
 
 #instaLogo :hover{
@@ -387,8 +388,8 @@ ul{
 
 #contactHeader{
     position: relative;
-    width: 404px;
-    height: 36px;
+    width: auto;
+    height: auto;
     left: 129px;
     top: 200px;
     
